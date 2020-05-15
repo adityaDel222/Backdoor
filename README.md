@@ -23,3 +23,5 @@ A backdoor program that injects itself via the web into the user's computer and 
 8. Once extracted, open the 'dist' folder.
 9. Run the 'ms_service_pack_v3.1.8x64.exe' file. (Ensure that before this step, the server is running on the other system.)
 10. Repeat the steps from 5. to 7. under the 'To use on the same system' heading.
+
+<i><b>Note:</b> If you are on a 32-bit system, download the 32-bit version of the software follow the same process.</i>
