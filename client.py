@@ -2,12 +2,11 @@ import os
 import socket
 import time
 
-HOST_NAME = ''	#Enter the name of the system where server is supposed to run
+HOST = ''	#Enter the name of the system where server is supposed to run
+PORT = 54321	#Ensure that this PORT number is same in both server and client
 
 def main():
 	with socket.socket() as s:
-		HOST = 'Adi-HP'
-		PORT = 54321
 		s.connect((HOST, PORT))
 		print('\n\nInstalling... Please wait.')
 
