@@ -2,6 +2,8 @@ import os
 import socket
 import time
 
+HOST_NAME = ''	#Enter the name of the system where server is supposed to run
+
 def main():
 	with socket.socket() as s:
 		HOST = 'Adi-HP'
