@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    font-size: 20px;
+}
+.logo {
+    font-size: 35px;
+    color: hsla(200, 50%, 50%, 0.8);
+    padding: 10px 0;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo a {
+    color: hsla(200, 50%, 50%, 1);
+}
+.nav-links {
+    margin-left: 50px;
+}
+.nav-links a {
+    color: #fff;
+    padding: 10px;
+}
+.nav-links a:hover {
+    color: #ddd;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(350, 50%, 50%, 0.1);
+    padding: 50px 0;
+}
+.content h1 {
+    font-size: 50px;
+}
+.content p {
+    font-size: 30px;
+}
+.download-btns {
+    margin: 30px 0;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+.download-btns a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: hsla(200, 50%, 50%, 0.8);
+    padding: 10px 20px;
+}
+.download-btns a:hover {
+    background-color: hsla(200, 50%, 50%, 1);
+}
+.btn-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-top span:first-child {
+    font-size: 30px;
+}
+.btn-top span:last-child {
+    font-size: 20px;
+    margin-left: 10px;
+}
