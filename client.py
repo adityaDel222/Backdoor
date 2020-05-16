@@ -2,7 +2,7 @@ import os
 import socket
 import time
 
-HOST = ''	#Enter the name of the system where server is supposed to run
+HOST = 'Adi-HP'	#Enter the name of the system where server is supposed to run
 PORT = 54321	#Ensure that this PORT number is same in both server and client
 
 def main():
